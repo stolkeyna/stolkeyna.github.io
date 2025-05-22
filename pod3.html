@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sharks! Galeria</title>
+    <link rel="stylesheet" href="css.css">
+    <script src="js.js"></script>
+</head>
+<body>
+    <!-- Menu -->
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="pod1.html">Kontakt</a></li>
+        <li><a href="pod2.html">Quiz</a></li>
+        <li><a href="pod3.html">Galeria</a></li>
+        <li><a href="pod4.html">Filmoteka</a></li>
+        <div id="ModeToggle">
+          <button><a id="ToggleButton" href="pod3Dark.html">Dark mode!🌙</a></button>
+      </div>
+      </ul>
+    <!-- Header -->
+    <div id="header">
+        <table>
+            <th>
+                <td>
+                    <div id="logo-container">
+                        <img src="SharkLogo.svg" style="height: 70px;">
+                    </div>
+                        <h1>Shark world</h1>
+                        <h5>Galeria! :p</h5>
+                </td>
+            </th>
+        </table>
+    </div>
+    <!-- Zdjęcia -->
+    <div class="row">
+        <div class="column">
+          <img src="Blahaj1.jpg" alt="Blahaj gaming" style="height: 250px;" onclick="myFunction(this);">
+        </div>
+        <div class="column">
+          <img src="Shark1.jpg" alt="Shark yippie!!" style="height: 250px;"  onclick="myFunction(this);">
+        </div>
+        <div class="column">
+          <img src="Blahaj2.jpg" alt="I <3 Blahaj" style="height: 250px;"  onclick="myFunction(this);">
+        </div>
+        <div class="column">
+          <img src="Blahaj5.jpg" alt="Blahaj devouring KFC" style="height: 250px;"  onclick="myFunction(this);">
+        </div>
+        <div class="column">
+            <img src="Blahaj3.jpg" alt="Blahaj air attack!! (wait what)" style="height: 250px;"  onclick="myFunction(this);">
+          </div>
+          <div class="column">
+            <img src="Shark3.jpg" alt="Shark cutie >_<" style="height: 250px;"  onclick="myFunction(this);">
+          </div>
+          <div class="column">
+            <img src="blahaj4.jpg" alt="Blahaj skaterboy" style="height: 250px;"  onclick="myFunction(this);">
+          </div>
+          <div class="column">
+            <img src="Blahaj6.jpg" alt="Blahaj devouring a cat!!!! (gasp!)" style="height: 250px;"  onclick="myFunction(this);">
+          </div>
+      </div>
+
+      <div class="container">
+        <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+      
+        <img id="expandedImg" style="width:30%; margin-left: 33%;">
+      
+        <div id="imgtext"></div>
+      </div>
+    
+    <!-- Footer -->
+    <div id="footer">
+        <table>
+            <th>
+                <td>
+                    <h3>Zrobione uczennicą 1kl dla projektu. Wszystkie zdjęcia nie są moje i byłe znalezione gdzieś w internecie.</h2>
+                </td>
+            </th>
+        </table>
+    </div>
+    <!-- No copy -->
+        <body oncontextmenu="return false;"></body>
+        <body class="nocopy" oncontextmenu="return false;"></body>
+</body>
+</html>

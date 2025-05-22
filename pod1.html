@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sharks! Kontact</title>
+    <link rel="stylesheet" href="css.css">
+    <script src="js.js"></script>
+</head>
+<body>
+    <!-- Menu -->
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="pod1.html">Kontakt</a></li>
+        <li><a href="pod2.html">Quiz</a></li>
+        <li><a href="pod3.html">Galeria</a></li>
+        <li><a href="pod4.html">Filmoteka</a></li>
+        <div id="ModeToggle">
+            <button><a id="ToggleButton" href="pod1Dark.html">Dark mode!🌙</a></button>
+        </div>
+      </ul>
+    <!-- Header -->
+    <div id="header">
+        <table>
+            <th>
+                <td>
+                    <div id="logo-container">
+                        <img src="SharkLogo.svg" style="height: 70px;">
+                    </div>
+                        <h1>Shark world</h1>
+                        <h5>Skontaktuj się z nami📞</h5>
+                </td>
+            </th>
+        </table>
+    </div>
+    <!-- Uwaga -->
+     <div id="uwaga">
+     <h1><b>Uwaga!!!</b></h1>
+     </div>
+     <h3>Przed napisaniem wiadomości proszę popatrzyć na nasz harmonogram pod formularzem. Dziękuję.</h3>
+    <!-- Formularz kontaktu -->
+    <div id="formularz">
+        <form class="form" id="contactForm" method="post" action="./send-script.php">
+            <div class="form-row">
+                <label for="name" class="form-label">Imię*</label>
+                <input class="form-control" type="text" name="name" required id="name">
+            </div>
+            <div class="form-row">
+                <label for="email" class="form-label">Email*</label>
+                <input class="form-control" type="email" name="email" required id="email">
+            </div>
+            <div class="form-row">
+                <label for="message" class="form-label">Wiadomość*</label>
+                <textarea class="form-control" name="message" required id="message"></textarea>
+            </div>
+            <div class="form-message"></div>
+            <div class="form-row">
+                <button type="submit" class="button form-submit">Wyślij</button>
+            </div>
+        </form>
+    </div>
+    <!-- Harmonogram -->
+     <div id="t"><h2>Harmonogram</h2></div>
+     <table id="Harmonogram">
+        <tr>
+            <th>
+                Dzień
+            </th>
+            <th>
+                Status
+            </th>
+        </tr>
+        <tr>
+            <td>
+                Pon.
+            </td>
+            <td>
+                Przyjmujemy wiadomości
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Wt.
+            </td>
+            <td>
+                Przyjmujemy wiadomości
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Śr.
+            </td>
+            <td>
+                Dzień wolny
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Czw.
+            </td>
+            <td>
+                Przyjmujemy wiadomości
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Pn.
+            </td>
+            <td>
+                Przyjmujemy wiadomości
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Sob.
+            </td>
+            <td>
+                Przyjmujemy wiadomości
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Nd.
+            </td>
+            <td>
+                Dzień wolny
+            </td>
+        </tr>
+     </table>
+    <!-- Footer -->
+    <div id="footer">
+        <table>
+            <th>
+                <td>
+                    <h3>Zrobione uczennicą 1kl dla projektu. Wszystkie zdjęcia nie są moje i byłe znalezione gdzieś w internecie.</h2>
+                </td>
+            </th>
+        </table>
+    </div>
+    <!-- No copy -->
+        <body oncontextmenu="return false;"></body>
+        <body class="nocopy" oncontextmenu="return false;"></body>
+</body>
+</html>
